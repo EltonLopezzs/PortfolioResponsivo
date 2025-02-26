@@ -1,44 +1,63 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
   <head>
+    <!-- Meta tags -->
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- title -->
     <title>Erlopes Portfólio</title>
+    <!-- CSS -->
     <link rel="stylesheet" href="css/extends.css" />
+    <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap" rel="stylesheet" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
-    <!-- Navbar -->
+    <!-- navbar -->
     <nav class="navbar">
       <div class="navbar__content max-width mb-0">
+        <a href="/">
+        </a>
         <ul class="navbar__links">
           <li><a href="#header">Início</a></li>
           <li><a href="#about">Sobre</a></li>
           <li><a href="#skills">Habilidades</a></li>
           <li><a href="#projects">Projetos</a></li>
-          <li><a href="#certifications">Certificações</a></li>
-          <li><a href="#services">Serviços</a></li>
           <li><a href="#footer">Contato</a></li>
         </ul>
+        <div class="navbar__mobile">
+          <img src="assets/menu.svg" alt="menu" class="burguer" />
+          <ul class="mobile__links">
+            <li><a href="#header">Início</a></li>
+            <li><a href="#about">Sobre</a></li>
+            <li><a href="#skills">Habilidades</a></li>
+            <li><a href="#projects">Projetos</a></li>
+            <li><a href="#footer">Contato</a></li>
+          </ul>
+        </div>
       </div>
     </nav>
 
-    <!-- Header -->
+    <!-- header -->
     <header id="header" class="max-width">
       <div class="header__left">
         <h1>Olá! Sou o Elton Lopes, Desenvolvedor Fullstack</h1>
         <p>
           Desenvolvedor web full-stack e futuro engenheiro de software, 
-          com experiência em sistemas de gestão, automação de processos e análise de dados.
+          com experiência em criação de sites, sistemas de gestão, aplicações e dashboards para tomada de decisões. 
+          Apaixonado por criar soluções tecnológicas que resolvem problemas reais e agregam valor aos usuários, especialmente na manipulação e análise de dados.
         </p>
         <a href="#about" class="btn btn-primary">Saiba Mais!</a>
       </div>
       <div class="header__right">
         <div class="header__image">
           <img src="assets/DE672A29-AD97-48A4-B4C8-8B8A4A533551.jpeg" alt="Elton Lopes" class="erlopes" />
+          <img src="assets/abstract.svg" alt="background" class="background" />
         </div>
       </div>
     </header>
@@ -47,43 +66,92 @@
     <section id="about" class="about max-width">
       <div class="about__left">
         <h2 class="secondary-title">Além do código: quem sou eu?</h2>
-        <p>Que tal se conectar comigo nas redes sociais?</p>
+        <p>
+          Que tal se conectar comigo nas redes sociais abaixo e saber mais sobre
+          meu trabalho?
+        </p>
         <ul>
-          <li><a href="https://www.linkedin.com/in/elton-reis-lopes-b563a2235/"><img src="assets/linkedin.svg" alt="Linkedin" /></a></li>
-          <li><a href="https://github.com/EltonLopezzs"><img src="assets/github.svg" alt="Github" /></a></li>
+
+          <li>
+            <a href="https://www.linkedin.com/in/elton-reis-lopes-b563a2235/"><img src="assets/linkedin.svg" alt="Linkedin" /></a>
+          </li>
+          <li>
+            <a href="https://github.com/EltonLopezzs"><img src="assets/github.svg" alt="Linkedin" /></a>
+          </li>
+          <li>
+          </li>
         </ul>
       </div>
       <div class="about__right">
         <h3 class="tertiary-title mb-m">
-          Transformando desafios em soluções eficientes
+          Desenvolvedor fullstack apaixonado por tecnologia e soluções criativas
         </h3>
         <p>
-          Com mais de 2 anos de experiência no desenvolvimento de sistemas de gestão e análise de dados, tenho uma abordagem focada em otimização de processos e melhoria contínua. Meu objetivo é criar soluções que impactem positivamente empresas e usuários.
+          Olá, eu sou o Elton, um desenvolvedor fullstack apaixonado por
+          tecnologia e soluções criativas. Com mais de 2 anos de experiência em
+          desenvolvimento web e analise de dados, tenho trabalhado com diversas tecnologias e
+          plataformas para criar soluções robustas e escaláveis que atendam às
+          necessidades dos clientes.
+        </p>
+        <p>
+          Como estudante de engenharia de software, amo o desafio de encontrar soluções 
+          inovadoras e criativas para problemas complexos. Estou constantemente aprimorando minhas habilidades em diversas linguagens de programação, incluindo Python,
+          JavaScript, Java, PL/SQL - Apex. Estou sempre buscando aprender mais sobre essas linguagens e suas aplicações em projetos de software.
         </p>
       </div>
     </section>
 
-    <!-- Habilidades -->
+    <!-- habilidades -->
     <section id="skills" class="skills">
       <div class="skills__content max-width">
         <h2 class="tertiary-title">Minha caixinha de ferramentas</h2>
-        <p class="description">Tecnologias que utilizo no meu dia a dia.</p>
+        <p class="description">
+          Descubra as habilidades e ferramentas que domino e que me permitem
+          criar soluções criativas e funcionais para meus clientes.
+        </p>
         <ul>
           <li class="skills__item">
-            <h3>Linguagens de Programação</h3>
-            <p>Python (Flask, Django, PySide6, Streamlit), JavaScript, Java, Kotlin, SQL (PL/SQL, Oracle APEX), HTML e CSS.</p>
-          </li>
-          <li class="skills__item">
+            <div class="image-container">
+              <img src="assets/notebook.png" alt="Desenvolvimento Web" />
+            </div>
             <h3>Desenvolvimento Web</h3>
-            <p>Criação de aplicações web modernas e responsivas.</p>
+            <p>
+              Experiência em desenvolvimento fullstack com foco em tecnologias
+              modernas com liguagem de programação Python e Javascrip.
+            </p>
           </li>
           <li class="skills__item">
-            <h3>Banco de Dados</h3>
-            <p>PL/SQL, Oracle APEX, MySQL, Firebase.</p>
+            <div class="image-container">
+              <img src="assets/colors.png" alt="Web Design" />
+            </div>
+            <h3>Web Design</h3>
+            <p>
+              Habilidade em criar layouts modernos e responsivos, com foco na
+              experiência do usuário.
+            </p>
           </li>
           <li class="skills__item">
-            <h3>Automação e Regex</h3>
-            <p>Scripts inteligentes para otimização de processos empresariais.</p>
+            <div class="image-container">
+              <img src="assets/phone.png" alt="UX/UI Design" />
+            </div>
+            <h3>UX/UI Design</h3>
+            <p>
+              Conhecimentos em design de interface e experiência do usuário
+              visualmente atraentes e intuitivas.
+            </p>
+          </li>
+          <li class="skills__item">
+            <div class="image-container">
+              <img src="assets/files.png" alt="Gerenciamentos de versões" />
+            </div>
+            <h3>Liguagem de Programação</h3>
+            <h4>PYTHON</h4>
+             <h4>JAVASCRIPT</h4>
+            <h4>REACT</h4>
+            <h4>KOTLIN</h4>
+             <h4>JAVA</h4>
+               <h4>SQL</h4>
+               <h4>PL/SQL - APEX</h4>
           </li>
         </ul>
       </div>
@@ -93,50 +161,59 @@
     <section id="projects" class="projects max-width">
       <div class="projects__content">
         <h2 class="secondary-title">Projetos em Destaque</h2>
-        <ul>
-          <li>
-            <h3>Sistema de Portaria</h3>
-            <p>Solução desenvolvida em Python e JavaScript para controle de entrada e saída de veículos.</p>
-          </li>
-          <li>
-            <h3>Dashboard de Produção</h3>
-            <p>Monitoramento em tempo real da produção agrícola, integrado ao banco de dados Oracle.</p>
-          </li>
-          <li>
-            <h3>Dashboard de Suprimentos</h3>
-            <p>Ferramenta para controle de estoque e solicitações de compra, conectada ao Oracle.</p>
-          </li>
-          <li>
-            <h3>Sistema de Oficina</h3>
-            <p>Projeto em desenvolvimento utilizando Firebase para gerenciamento de ordens de serviço.</p>
-          </li>
-        </ul>
+        <p>
+          De ideias abstratas a projetos bem-sucedidos, aqui estão alguns dos
+          meus trabalhos mais recentes
+        </p>
       </div>
-    </section>
-
-    <!-- Certificações -->
-    <section id="certifications" class="certifications max-width">
-      <h2 class="secondary-title">Certificações</h2>
       <ul>
         <li>
-          <h3>Oracle APEX</h3>
-          <a href="https://www.udemy.com/certificate/UC-5226f8df-1fd2-49e8-b0aa-9e79fbd2a578/" class="btn btn-primary">Ver Certificado</a>
+          <div class="image"> 
+            <img src="assets/task-manager.png" alt="Gerenciamento de tarefas" />
+          </div>
+          <div class="projects__info">
+            <h3 class="tertiary-title">
+              Sistema de Portaria
+            </h3> 
+            <p>
+              Desenvolvi um sistema de portaria abrangente para uma usina de Alcool e Açucar, 
+              utilizando Python e JavaScript. No back-end, 
+              Python foi combinado com um banco de dados MySQL para gerenciar eficientemente os dados e a lógica de negócios. 
+              Para o front-end, utilizei JavaScript, HTML e CSS para criar uma interface intuitiva e responsiva. O sistema permite o registro detalhado de entrada e saída de vários tipos de veículos, incluindo MEM, carretas de álcool e de açúcar, além de controlar o acesso de funcionários.Além disso, integrei funcionalidades adicionais, como o registro de notas fiscais e o envio automático de e-mails para solicitar autorização de entrada. Quando uma nota fiscal é registrada, o sistema envia automaticamente um e-mail para solicitar a autorização de entrada correspondente. Essa abordagem automatizada agiliza o processo de autorização e garante o cumprimento dos procedimentos de segurança.Com todas essas funcionalidades, 
+              o sistema de portaria proporciona um controle abrangente e eficiente do fluxo de entrada e saída na usina, promovendo segurança e eficiência operacional.
+            </p>
+          </div>
+        </li>
+        <li class="projects__reversed-list">
+           <div class="image">
+            <img src="assets/IMG_2405.jpeg" alt="ecommerce" />
+          </div>
+          <div class="projects__info">
+            <h3 class="tertiary-title">
+              Dashboard de Produção Desenvolvido em Python 
+            </h3>
+            <p>
+              Dashboard de produção utilizando Python como back-end, 
+              conectado ao banco de dados Oracle para garantir a precisão e atualização das informações. O front-end foi construído utilizando JavaScript para oferecer uma experiência de usuário dinâmica e intuitiva. Esse Dashboard é especialmente voltado para o acompanhamento da safra, fornecendo uma visão detalhada da produção atual. Ele utiliza a conexão direta com o banco Oracle para trazer informações atualizadas em tempo real, permitindo que os usuários monitorem de perto o progresso da safra e tomem decisões estratégicas com base em dados precisos e atualizados. Além disso, o Dashboard oferece uma visualização em tempo real dos pontos de colheita em um mapa interativo. Essa funcionalidade permite que os usuários acompanhem a distribuição geográfica da colheita e identifiquem áreas de maior atividade. Com essa visualização espacial, os gestores podem tomar decisões mais informadas sobre alocação de recursos e logística, 
+              maximizando a eficiência da operação de colheita.
+            </p>
+          </div>
         </li>
         <li>
-          <h3>PL/SQL</h3>
-          <a href="https://www.udemy.com/certificate/UC-f2713370-d753-4299-a445-191a246b8931/" class="btn btn-primary">Ver Certificado</a>
+          <div class="image">
+            <img src="assets/ecommerce.png" alt="delivery" />
+          </div>
+          <div class="projects__info">
+            <h3 class="tertiary-title">
+              Dashboard Suprimento 
+            </h3>
+            <p>
+               Esse e um Dashboard robusto utilizando Python, 
+              que se conecta diretamente ao banco de dados Oracle para fornecer uma visão abrangente de todas as solicitações de compra, status do estoque, valor atual do estoque e outras métricas relevantes. Essa ferramenta é essencial para facilitar as tomadas de decisões estratégicas, oferecendo insights detalhados e em tempo real sobre o suprimento da empresa. Com visualizações claras e intuitivas, 
+              o Dashboard proporciona uma análise abrangente e facilita a identificação de tendências e oportunidades de melhoria
+            </p>
+          </div>
         </li>
-      </ul>
-    </section>
-
-    <!-- Serviços -->
-    <section id="services" class="services max-width">
-      <h2 class="secondary-title">Serviços</h2>
-      <ul>
-        <li><h3>Desenvolvimento Fullstack</h3><p>Criação de aplicações web escaláveis e seguras.</p></li>
-        <li><h3>Automação de Processos</h3><p>Otimização de fluxos de trabalho através de scripts inteligentes.</p></li>
-        <li><h3>Banco de Dados</h3><p>Criação e manutenção de bancos de dados robustos e eficientes.</p></li>
-        <li><h3>Desenvolvimento de Dashboards</h3><p>Visualização de dados estratégicos para tomada de decisão.</p></li>
       </ul>
     </section>
 
@@ -144,13 +221,33 @@
     <footer id="footer">
       <div class="footer__content max-width mb-0">
         <h2 class="tertiary-title mb-s">Vamos conversar?</h2>
-        <p>Entre em contato comigo.</p>
-        <span>Email: eltonreislopes15@gmail.com</span>
-        <span>Telefone: 21 995955874</span>
-        <p class="footer__copyright">© 2024 Elton Lopes. Todos os direitos reservados.</p>
+        <p class="mb-m">
+          Ficarei feliz em saber mais sobre seus projetos e como podemos
+          trabalhar juntos para torná-los realidade.
+        </p>
+        <div class="footer__contact mb-m">
+          <span class="mb-m">eltonreislopes15@gmail.com</span>
+          <span>21 995955874</span>
+        </div>
+        <ul class="mb-l">
+          <li>
+          </li>
+          <li>
+            <a href="https://www.linkedin.com/in/elton-reis-lopes-b563a2235/"><img src="assets/linkedin.svg" alt="Linkedin" /></a>
+          </li>
+          <li>
+            <a href="https://github.com/EltonLopezzs"><img src="assets/github.svg" alt="Linkedin" /></a>
+          </li>
+          <li>
+      
+          </li>
+        </ul>
+        <p class="footer__copyright">
+          © 2024 Elton Lopes. Todos os direitos reservados.
+        </p>
       </div>
     </footer>
-
+    <!-- script -->
     <script src="scripts/index.js"></script>
   </body>
 </html>
